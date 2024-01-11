@@ -1,2 +1,3 @@
 # vanilla-javascript_projects
-a compilation of simple projects  
+color-flipper project
+simple project that changes the background color on clicking the a button
