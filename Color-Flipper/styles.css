@@ -1,99 +1,59 @@
 body{
-    background-color: #f1f5f8;
-}
-main{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-  
+    margin: 0;
 }
 .nav-center{
+display: flex;
+align-items: center;
+flex-direction: row;
+height:50px;
+box-shadow: 3px 3px 10px grey; 
+background-color: white;
+margin-right: 0px;
+border-top: 1px rgb(231, 229, 229) solid;
+}
+h4{
     display: flex;
-    flex-direction: row;
-   
-    align-items: center;
-    background-color: lightcyan;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 50px;
-    box-shadow: 1px 1px 15px gray;
-    background-color: white;
-    
-}
-.title{
     flex: 1;
-    text-align: center;
-    color: blue;
+    justify-content: center;
+    color: rgb(87, 145, 226);
 }
-.links{
-    flex: 1;
-   
-}
-
 ul{
-    list-style: none;
-    display: flex;
-    
-
+display: flex;
+list-style: none;
+text-decoration: none;
+flex: 1;
+justify-content: center;
+}
+li{
+display: inline;
+padding: 5px;
 }
 a{
-    margin-left: 10px;
     text-decoration: none;
     color: black;
-    
 }
 a:hover{
-    color: blue;
-}
-a:target{
-    color:red;
+    color: rgb(87, 145, 226);
 }
 
-.body-container{
-    margin-top: 100px;
+
+
+.container{
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
-   
-    display: grid;
-    place-items: center;
-   width: 500px;
-    
-}  
-.background-color{
-  background-color: black;  
-  border-radius: 8px;
- padding: 5px;
- align-items: center;
-  width: auto;
-  height: 30px;
-  line-height: 30px;
-  margin: auto;
- 
- 
-}   
-.text{
-    margin: 0;
-    text-align: center;
+    margin-top: 150px;
+}
+.container h2{
+    background-color: black;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
-}  
-
+    border-radius: 4px;
+   
+}
 .btn{
-    margin-top: 10px;
-   width: 70px;
-   height: 30px;
-   background-color: white;
-   border: 2px,solid;
-   font-weight: bold;
-   font-size: 13px;
-   
-
+  border: 2px;
+  border-style: solid;
+  border-radius: 5px;  
+    
 }
-.btn:hover{
-    cursor: pointer;
-}
-
-
-   

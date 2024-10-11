@@ -1,0 +1,27 @@
+main{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#value{
+   font-size: 40px;
+   font-weight: 20px;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
